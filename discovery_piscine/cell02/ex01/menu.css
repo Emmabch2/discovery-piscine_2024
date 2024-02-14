@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    
+}
+nav ul{
+    list-style-type: none;
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(209, 205, 205);
+    padding: 0;
+}
+.sous{
+    display: none;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+    
+}
+.sous a{
+    padding: 10px;
+    float: center;
+    width: auto;
+
+}
+.sous a:hover{
+    
+    background-color:rgb(255, 136, 0);
+}
+.deroulant > a::after{
+    font-size: 20px;
+}
+nav ul li{
+    float: center;
+    width: 25%;
+    text-align: center;
+}
