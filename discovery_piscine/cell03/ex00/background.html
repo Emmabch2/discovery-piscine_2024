@@ -1,0 +1,27 @@
+<html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fond couleur</title>
+    <link rel="stylesheet" href="./background.css ">
+    <script>
+        function couleurs() {
+            let r = Math.floor (Math.random () * 256);
+            let g = Math.floor (Math.random () * 256);
+            let b = Math.floor (Math.random () * 256);
+            let rgb = "rgb("+ r +","+ g +","+ b +")";
+            document.body.style.background = rgb;
+    }
+        function initial(color) {
+            document.body.style.background = color
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <button id="btn" onclick="couleurs()" onmouseleave="couleurs()">Click me!</button>
+    </div>
+</body>
+</html>

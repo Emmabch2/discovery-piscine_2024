@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.parallax1 {
+    background-image: url(https://catwithmonocle.com/wp-content/uploads/2019/09/ori-bf-cover-3840x2160.jpg);
+    height: 100vh;
+    width: 100%;
+    ;
+}
+.block {
+    background-color: black;
+    height: 120vh;
+    width: 100%;
+
+}
+.parallax3 {
+    background-image: url(https://images2.alphacoders.com/102/1028178.jpg);
+    height: 100vh;
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+.card{
+  box-shadow: 0px 5px 20px gray;
+  background-color: rgba(80, 185, 76, 0.133);
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: center;
+  height: 150px;
+  width: 190px;
+  border: 10px double green;
+}
+img{
+height: 100px;
+width: 100px;
+border: 2px ridge rgb(6, 241, 241);
+padding: 10px;
+box-shadow: 0px 0px 20px rgba(8, 188, 158, 0.535);
+margin-bottom: 20px;
+background-color: rgba(255, 255, 255, 0.429);
+}
+h2{
+color: rgb(6, 141, 6);
+border-bottom: 1px dashed green;
+}
+h4{
+color: rgb(66, 114, 66);
+}
+h5, h6{
+color: rgb(81, 147, 81);
+}
+h6{
+margin-top: -20px;
+}
+ion-icon{
+color: rgb(14, 133, 30);
+
+}
+button{
+color: rgb(239, 247, 239);
+background-color: green;
+border: 1px green;
+}
+#phone{
+color: white;
+}
+.ligne{
+background-color: green;
+}
+
+.ligne:hover {
+  background-color: rgb(5, 176, 5);
+}
+
+.ligne:hover button {
+  background-color: rgb(5, 176, 5);
+}
